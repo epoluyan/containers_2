@@ -1,4 +1,4 @@
-import ErrorRepository from '../errorRepository ';
+import ErrorRepository from '../errorRepository';
 
 test('should return error 500', () => {
   const newError = new ErrorRepository(500, 'Internal Server Error');
